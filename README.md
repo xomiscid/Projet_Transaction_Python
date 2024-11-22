@@ -7,3 +7,5 @@ dépôt et de retrait.
 - Afficher l’historique des transactions et le solde actuel.
 - Concepts à couvrir: Les fonctions, les structures de données (dictionnaires/lists), et la
 gestion des erreurs pour empêcher les soldes négatifs.
+
+je veux creer le scanner et le lier avec notre qrCode pour ainsi nous demarquer mais aussi de  faire nos resultats grace a notre de donnees

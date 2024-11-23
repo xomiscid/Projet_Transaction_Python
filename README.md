@@ -8,7 +8,7 @@ dépôt et de retrait.
 - Concepts à couvrir: Les fonctions, les structures de données (dictionnaires/lists), et la
 gestion des erreurs pour empêcher les soldes négatifs.
 
-Aujourd'hui, le 23 novembre 2024
+Samedi, le 23 novembre 2024
 - Ajout d'un fichier 'mode sombre' sur ma branche (KhamisAmaboua);
 - Insertion du mode sombre dans le fichier central 'transaction.py' de ma branche.
 

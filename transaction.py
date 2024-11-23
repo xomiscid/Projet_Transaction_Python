@@ -117,8 +117,45 @@ class TransactionApp:
         for widget in self.root.winfo_children():
             widget.destroy()
 
+        # Initialize theme state
+        self.is_dark = False
+        
+        # Create label
+        self.label = tk.Label(self.root,)
+        self.label.pack(pady=20)
+        
+        # Create toggle button
+        self.toggle_button = tk.Button(self.root, text="Theme", command=self.toggle_mode)
+        self.toggle_button.pack(side="top", anchor="nw", padx=10, pady=10)
+
+
+        
+        # Apply initial light mode
+        self.apply_light_mode()
+    
+    def toggle_mode(self):
+        if self.is_dark:
+            self.apply_light_mode()
+        else:
+            self.apply_dark_mode()
+    
+    def apply_dark_mode(self):
+        self.root.configure(bg='black')
+        self.label.configure(bg='black', fg='white',)
+        self.toggle_button.configure(bg='gray', fg='white')
+        self.is_dark = True
+    
+    def apply_light_mode(self):
+        self.root.configure(bg='white')
+        self.label.configure(bg='white', fg='black',)
+        self.toggle_button.configure(bg='lightgray', fg='black')
+        self.is_dark = False
+    
+    def run(self):
+        self.root.mainloop()
+
 # Création et lancement de l'application
 if __name__ == "__main__":
     root = tk.Tk()
-    app = TransactionApp(root)
+    app = TransactionApp(root),
     root.mainloop()

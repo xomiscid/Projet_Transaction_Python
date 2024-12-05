@@ -9,8 +9,8 @@ dépôt et de retrait.
 gestion des erreurs pour empêcher les soldes négatifs.
 
 """
-Samedi, le 23 novembre 2024 --> Khamis Amaboua
-- Ajout d'un fichier 'mode sombre' sur ma branche (KhamisAmaboua);
+Samedi, le 23 novembre 2024 --> xomiscid
+- Ajout d'un fichier 'mode sombre' sur ma branche (xomiscid);
 - Insertion du mode sombre dans le fichier central 'transaction.py' de ma branche.
 
 À FAIRE :

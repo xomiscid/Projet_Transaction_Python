@@ -10,7 +10,7 @@ import os
 class TransactionApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Application de Transactions")
+        self.root.title("FINTECH")
         self.root.geometry("800x800")
         self.root.configure(bg="#f0f4f8")
 

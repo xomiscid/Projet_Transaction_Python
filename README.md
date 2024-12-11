@@ -22,7 +22,7 @@ Mardi, le 11 décembre 2024 --> xomiscid
 - Création du fichier 'transaction1.py' qui est une mise à jour considérable du fichier 'transaction.py';
 - Ajout de 'BD.txt' représentatif de la base de donnée;
 - Liaison de toutes les différentes pages réalisées;
-- Ajoutde toutes les fonctionnalités pour l'instant réalisées sur une meme page;
+- Ajout de toutes les fonctionnalités pour l'instant réalisées sur une meme page;
 - Base de donnée fonctionnelle.
   
 BUGS :

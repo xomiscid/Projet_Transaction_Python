@@ -1,74 +1,44 @@
 # Transaction.py Readme
 
-## Overview
+## Introduction
 
 Ce fichier contient les classes et les fonctions nécessaires pour gérer les transactions financières.
 
-## Classes
+## les bibliotheques et Modules
+    Afin de faciliter la gestion des transactions, nous avons besoin de certaines bibliothèques et modules.
 
-### Transaction
 
-*   **Description** : Cette classe représente une transaction financière.
-*   **Attributs** :
-    *   `id` : Identifiant unique de la transaction.
-    *   `date` : Date de la transaction.
-    *   `montant` : Montant de la transaction.
-    *   `type` : Type de transaction (dépôt, retrait, etc.).
-*   **Méthodes** :
-    *   `__init__` : Initialisation de la transaction.
-    *   `__str__` : Représentation sous forme de chaîne de la transaction.
+### tkinter :
+ C'est la bibliothèque principale pour créer des interfaces graphiques en Python. Elle permet de créer des fenêtres, des boutons, des champs de texte, et d'autres éléments d'interface utilisateur.
 
-## Fonctions
+### messagebox :
+  C'est un module de tkinter qui permet d'afficher des boîtes de dialogue pour montrer des messages d'information, d'avertissement ou d'erreur à l'utilisateur.
 
-### get_transactions
+### filedialog :
+ Ce module de tkinter permet d'ouvrir des boîtes de dialogue pour sélectionner des fichiers ou des répertoires. Il est utile pour permettre à l'utilisateur de choisir des fichiers à ouvrir ou à enregistrer.
 
-*   **Description** : Cette fonction récupère la liste des transactions.
-*   **Paramètres** :
-    *   `db` : Base de données contenant les transactions.
-*   **Retour** : Liste des transactions.
+### ttk :
+ C'est une extension de tkinter qui fournit des widgets plus modernes et stylisés. Elle permet d'améliorer l'apparence des éléments de l'interface utilisateur.
 
-### add_transaction
+### datetime :
+ Cette bibliothèque est utilisée pour manipuler les dates et les heures. Elle peut être utile pour enregistrer des timestamps ou pour effectuer des calculs de dates.
 
-*   **Description** : Cette fonction ajoute une nouvelle transaction.
-*   **Paramètres** :
-    *   `db` : Base de données contenant les transactions.
-    *   `transaction` : Transaction à ajouter.
-*   **Retour** : Identifiant unique de la transaction ajoutée.
+### qrcode :
+ Cette bibliothèque est utilisée pour générer des QR codes. Elle permet de créer des codes QR à partir de chaînes de caractères, ce qui peut être utile pour des fonctionnalités comme le partage d'informations ou l'accès à des liens.
 
-### update_transaction
+### PIL (Pillow) :
+ C'est une bibliothèque pour le traitement d'images. Dans ce projet, elle est utilisée pour afficher le QR code généré dans l'interface tkinter. Elle permet de manipuler et d'afficher des images de manière efficace.
 
-*   **Description** : Cette fonction met à jour une transaction existante.
-*   **Paramètres** :
-    *   `db` : Base de données contenant les transactions.
-    *   `transaction` : Transaction à mettre à jour.
-*   **Retour** : Identifiant unique de la transaction mise à jour.
+### os :
+ Cette bibliothèque fournit une interface pour interagir avec le système d'exploitation. Elle peut être utilisée pour gérer des fichiers et des répertoires, comme vérifier l'existence de fichiers ou créer des chemins.
 
-### delete_transaction
+### re :
+ C'est la bibliothèque pour les expressions régulières en Python. Elle est utilisée pour effectuer des recherches et des manipulations de chaînes de caractères basées sur des motifs, ce qui peut être utile pour valider des entrées utilisateur ou extraire des informations spécifiques.
 
-*   **Description** : Cette fonction supprime une transaction existante.
-*   **Paramètres** :
-    *   `db` : Base de données contenant les transactions.
-    *   `id` : Identifiant unique de la transaction à supprimer.
-*   **Retour** : Identifiant unique de la transaction supprimée.
 
-## Exemple d'utilisation
-
-```python
-from transaction import Transaction, get_transactions, add_transaction, update_transaction, delete_transaction
-
-# Création d'une nouvelle transaction
-transaction = Transaction(1, "2022-01-01", 100.0, "dépôt")
-
-# Ajout de la transaction à la base de données
-db = []
-add_transaction(db, transaction)
-
-# Récupération de la liste des transactions
-transactions = get_transactions(db)
-
-# Mise à jour de la transaction
-update_transaction(db, transaction)
-
-# Suppression de la transaction
-delete_transaction(db, transaction.id)
-``` 
+## les classes et les fonctions
+### TransactionApp
+Cette classe représente l'application principale. Elle est responsable de la création de l'interface
+graphique, de la gestion des événements et de l'exécution des opérations
+financières.
+### fonctions

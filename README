@@ -1,0 +1,74 @@
+# Transaction.py Readme
+
+## Overview
+
+Ce fichier contient les classes et les fonctions nécessaires pour gérer les transactions financières.
+
+## Classes
+
+### Transaction
+
+*   **Description** : Cette classe représente une transaction financière.
+*   **Attributs** :
+    *   `id` : Identifiant unique de la transaction.
+    *   `date` : Date de la transaction.
+    *   `montant` : Montant de la transaction.
+    *   `type` : Type de transaction (dépôt, retrait, etc.).
+*   **Méthodes** :
+    *   `__init__` : Initialisation de la transaction.
+    *   `__str__` : Représentation sous forme de chaîne de la transaction.
+
+## Fonctions
+
+### get_transactions
+
+*   **Description** : Cette fonction récupère la liste des transactions.
+*   **Paramètres** :
+    *   `db` : Base de données contenant les transactions.
+*   **Retour** : Liste des transactions.
+
+### add_transaction
+
+*   **Description** : Cette fonction ajoute une nouvelle transaction.
+*   **Paramètres** :
+    *   `db` : Base de données contenant les transactions.
+    *   `transaction` : Transaction à ajouter.
+*   **Retour** : Identifiant unique de la transaction ajoutée.
+
+### update_transaction
+
+*   **Description** : Cette fonction met à jour une transaction existante.
+*   **Paramètres** :
+    *   `db` : Base de données contenant les transactions.
+    *   `transaction` : Transaction à mettre à jour.
+*   **Retour** : Identifiant unique de la transaction mise à jour.
+
+### delete_transaction
+
+*   **Description** : Cette fonction supprime une transaction existante.
+*   **Paramètres** :
+    *   `db` : Base de données contenant les transactions.
+    *   `id` : Identifiant unique de la transaction à supprimer.
+*   **Retour** : Identifiant unique de la transaction supprimée.
+
+## Exemple d'utilisation
+
+```python
+from transaction import Transaction, get_transactions, add_transaction, update_transaction, delete_transaction
+
+# Création d'une nouvelle transaction
+transaction = Transaction(1, "2022-01-01", 100.0, "dépôt")
+
+# Ajout de la transaction à la base de données
+db = []
+add_transaction(db, transaction)
+
+# Récupération de la liste des transactions
+transactions = get_transactions(db)
+
+# Mise à jour de la transaction
+update_transaction(db, transaction)
+
+# Suppression de la transaction
+delete_transaction(db, transaction.id)
+``` 

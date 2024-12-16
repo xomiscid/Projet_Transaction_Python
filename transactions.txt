@@ -1,0 +1,6 @@
+Le Transfert de 645.00 F de PY_VAR0 à 1234567 a été effectué.
+
+Le Transfert de 33.00 F de PY_VAR0 à 12345678 a été effectué.
+
+Le Transfert de 234.00 F de PY_VAR0 à 12345678 a été effectué.
+

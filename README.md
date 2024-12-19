@@ -35,16 +35,12 @@ Mercredi, le 18 décembre 2024 --> Khamis Amaboua
 - Ajout de la version finale du projet avec toutes les fonctionnalités;
 - Réparation des bugs;
 - Finition de collage des différentes pages et amélioration de l'interface et du convertisseur;
+- Finition en cours;
 
 BUGS :
 - Lenteur due au graphe de matplotlib;
 - Design à améliorer;
 - Bug de la version mobile;
-"""
--------------------------------------------------------------------------------------------------------------------------------------------------
-"""
-Jeudi, le 19 décembre 2024 --> Khamis Amaboua
-- Finition en cours;
 
 Perspectives d'avenir :
 - Amélioration de l'UX;

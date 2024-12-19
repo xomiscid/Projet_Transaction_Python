@@ -1,5 +1,5 @@
 <div class="section">
-    <h2>🌟 Modifications Réalisées 🌟</h2>
+    <h2>🌟 Modifications Réalisées --> branche Khamis 🌟</h2>
     <h3>1. <span class="highlight">Amélioration du Design</span></h3>
     <ul>
         <li>Création d'une interface utilisateur moderne et attrayante.</li>

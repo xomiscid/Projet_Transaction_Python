@@ -9,8 +9,8 @@ dépôt et de retrait.
 gestion des erreurs pour empêcher les soldes négatifs.
 --------------------------------------------------------------------------------------------------------------------------------------------------
 """
-Samedi, le 23 novembre 2024 --> Khamis Amaboua
-- Ajout d'un fichier 'mode sombre' sur ma branche (xomiscid);
+Samedi, le 23 novembre 2024
+- Ajout d'un fichier 'mode sombre' sur ma branche;
 - Insertion du mode sombre dans le fichier central 'transaction.py' de ma branche.
 
 À FAIRE :
@@ -18,7 +18,7 @@ Samedi, le 23 novembre 2024 --> Khamis Amaboua
 """
 --------------------------------------------------------------------------------------------------------------------------------------------------
 """
-Mardi, le 11 décembre 2024 --> Khamis Amaboua
+Mardi, le 11 décembre 2024
 - Création du fichier 'transaction1.py' qui est une mise à jour considérable du fichier 'transaction.py';
 - Ajout de 'BD.txt' représentatif de la base de donnée;
 - Liaison de toutes les différentes pages réalisées;
@@ -31,7 +31,7 @@ BUGS :
 """
 -------------------------------------------------------------------------------------------------------------------------------------------------
 """
-Mercredi, le 18 décembre 2024 --> Khamis Amaboua
+Mercredi, le 18 décembre 2024 
 - Ajout de la version finale du projet avec toutes les fonctionnalités;
 - Réparation des bugs;
 - Finition de collage des différentes pages et amélioration de l'interface et du convertisseur;

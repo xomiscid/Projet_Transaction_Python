@@ -1,33 +1,28 @@
 <div class="section">
     <h2>🌟 Modifications Réalisées 🌟</h2>
-
     <h3>1. <span class="highlight">Amélioration du Design</span></h3>
     <ul>
         <li>Création d'une interface utilisateur moderne et attrayante.</li>
         <li>Harmonisation des couleurs, des polices et des éléments graphiques pour une meilleure expérience utilisateur.</li>
         <li>Prise en compte de l'accessibilité pour s'assurer que l'application est utilisable par tous.</li>
     </ul>
-
     <h3>2. <span class="highlight">Conversion de Tkinter vers Kivy</span></h3>
     <ul>
         <li>Migration complète du projet de Tkinter à Kivy afin de profiter des capacités multiplateformes et d'une interface plus dynamique.</li>
         <li>Intégration de composants personnalisés pour reproduire et améliorer les fonctionnalités existantes.</li>
     </ul>
-
     <h3>3. <span class="highlight">Assemblage des Pages</span></h3>
     <ul>
         <li>Fusion des différentes pages fournies par les membres de l'équipe.</li>
         <li>Implémentation d'une navigation fluide entre les pages.</li>
         <li>Ajustement du design pour assurer une cohérence visuelle et fonctionnelle sur l'ensemble de l'application.</li>
     </ul>
-
     <h3>4. <span class="highlight">Ajout d'un Mode Sombre</span></h3>
     <ul>
         <li>Implémentation d'un mode sombre pour réduire la fatigue visuelle des utilisateurs.</li>
         <li>Option de basculement dynamique entre les modes clair et sombre.</li>
         <li>Tests approfondis pour garantir un affichage optimal des éléments dans les deux modes.</li>
     </ul>
-
     <h3>5. <span class="highlight">Création de Pages Spécifiques</span></h3>
     <ul>
         <li><strong>Page d'accueil</strong>: Conception d'une page d'accueil intuitive et informative.</li>
